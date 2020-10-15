@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class Home extends Component {
   constructor() {
     super()
@@ -21,10 +22,11 @@ export default class Home extends Component {
           })
         } */}
 
-        <p>
+        {/* <p>
           {this.props.title}
         </p>
-        <button onClick={this.changeFuns}>change</button>
+        <button onClick={this.changeFuns}>change</button> */}
+        
       </div>
     )
   }

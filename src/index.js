@@ -12,7 +12,7 @@ ReactDOM.render(
       <App></App>
       {/* <Home arr={arr1}></Home>
       <Home arr={arr2}></Home> */}
-      <StateComponent arr={arr2}></StateComponent>
+      {/* <StateComponent arr={arr2}></StateComponent> */}
     </div>
 
   ,document.getElementById('root'))
