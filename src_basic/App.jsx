@@ -7,6 +7,8 @@ import Home from './Home'
 import RefForm from './refsForm'
 import Compose from './compose'
 import PropType from './propType'
+import Main from './routerPages/Main'
+import ReduxMain from './reduxFile/Main'
 
 
 export default class App extends Component {
@@ -47,7 +49,12 @@ export default class App extends Component {
             {/* 类型检测 */}
             {/* <PropType title={'123'}></PropType> */}
 
+            {/* react-router */}
+            {/* <Main></Main> */}
 
+            {/* redux */}
+            <ReduxMain></ReduxMain>
+            
 
          </div>
         )
